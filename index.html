@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Lamp Book</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&family=Narnoor&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&family=Aldrich&family=Narnoor&family=Loved+by+the+King&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="logo">The Lamp Book</h1>
+      <nav class="nav-menu">
+        <a href="#produitcards">Produit</a>
+        <a href="#footerdown">À propos</a>
+        <a href="#contact">Contact</a>
+        <a href="#formAchter.html" class="buy-now"
+          ><i class="fas fa-cart-shopping"></i> Acheter maintenant</a
+        >
+        <span class="lang-icon"><i class="fas fa-globe"></i></span>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          Procurez-vous votre lampe de livre lumineuse aujourd’hui et illuminez
+          votre monde !
+        </div>
+        <div class="hero-button">
+          <button>Découvrir <i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features-row">
+        <h2>Une Livre. Une lampe.<br />Une Expérience.</h2>
+        <div class="icon-row">
+          <div class="icon-block">
+            <i class="fas fa-book-open"></i>
+            <p>Design Pliable</p>
+          </div>
+          <div class="icon-block">
+            <i class="fas fa-lightbulb"></i>
+            <p>Lumiére Ambiante</p>
+          </div>
+          <div class="icon-block">
+            <i class="fas fa-battery-full"></i>
+            <p>Rechargeable</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section">
+      <div class="split-image">
+        <img src="images/Lamp2.jpg" alt="Lamp2" />
+      </div>
+      <div class="split-text">
+        <p>Une touche magique pour votre intérieur.</p>
+      </div>
+    </section>
+    <section class="produit">
+      <div class="produit-content">
+        <div class="image-gallery">
+          <img src="images/Lamp1.png" alt="Lamp 1" />
+          <img src="images/ImageLamp.webp" alt="Lamp 2" />
+          <img src="images/Lamp3.jpg" alt="Lamp 3" />
+          <img src="images/test1.jpg" alt="Lamp 4" />
+          <img src="images/test2.jpg" alt="Lamp 5" />
+          <img src="images/test3.jpg" alt="Lamp 6" />
+        </div>
+        <div id="produitcards" class="benefits">
+          <div class="benefit-item">
+            <div class="benefit-circle">
+              <i class="fas fa-battery-full"></i>
+            </div>
+            <p>Autonomie</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-circle"><i class="fas fa-bolt"></i></div>
+            <p>Pliable à 360°</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-circle"><i class="fas fa-book"></i></div>
+            <p>Portable</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-circle"><i class="fas fa-gift"></i></div>
+            <p>Cadeau parfait</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-section">
+        <div class="video-box">
+          <video
+            src="Videos/Led.mp4"
+            controls
+            alt="Vidéo de la lampe"
+            style="width: 100%; border-radius: 10px"
+          ></video>
+        </div>
+        <div class="video-text-block">
+          <div class="video-title">Voyez-la en action</div>
+          <div class="video-description">
+            N'attendez plus et illuminez votre passion pour les livres !
+          </div>
+          <div class="video-cta">
+            <button class="cta">
+              <a href="formAchter.html"><i class="fas fa-shopping-cart"></i> Acheter</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stats-section">
+      <div class="stats-overlay"></div>
+      <div class="stats-content">
+        <div class="stat">
+          <span>1000+</span>
+          <p>Clients</p>
+        </div>
+        <div class="stat">
+          <span>50+</span>
+          <p>Pays</p>
+        </div>
+        <div class="stat">
+          <span>98%</span>
+          <p>Satisfaction</p>
+        </div>
+        <div class="stat">
+          <span>24/7</span>
+          <p>Support</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h1>Contact</h1>
+      <form action="#" method="post" class="contact-form">
+        <div class="left-form">
+          <label for="name">Nom et prénom</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="right-form">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <i class="fa-solid fa-paper-plane"></i> Envoyer
+        </button>
+      </form>
+    </section>
+
+    <footer id="footerdown" class="footer">
+      <div class="footer-left">
+        <div class="footer-line"></div>
+        <p>
+          Notre entreprise propose une offre innovante et compétitive dans le
+          marché des lampes de lecture. Avec une stratégie solide et une équipe
+          expérimentée, nous sommes confiants dans notre capacité à réussir
+        </p>
+      </div>
+
+      <div class="footer-icons">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 Livre Lumières. les leaders de l’innovation
+      </div>
+    </footer>
+    <!-- Add this at the end of your body tag -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <iframe
+          src="formAchter.html"
+          frameborder="0"
+          width="100%"
+          height="600px"
+        ></iframe>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("orderModal");
+
+      // Get all buttons that should open the modal
+      var btns = document.querySelectorAll(".cta, .btn-primary");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close-modal")[0];
+
+      // When the user clicks on the button, open the modal
+      btns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          modal.style.display = "block";
+        });
+      });
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
