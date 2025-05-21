@@ -594,3 +594,12 @@ textarea {
     padding: 1rem;
   }
 }
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+}
