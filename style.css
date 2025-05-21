@@ -577,3 +577,20 @@ textarea {
     max-width: 150px;
   }
 }
+@media (max-width: 768px) {
+  .navbar {
+    position: static;
+  }
+}
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    font-size: 0.5rem;
+    padding: 1rem;
+  }
+}
